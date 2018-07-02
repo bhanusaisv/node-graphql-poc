@@ -1,7 +1,7 @@
-var githubResolvers = require('./GitHubResolvers')
+var { getUserDetails } = require('./GitHubResolvers')
 
 var resolvers = {
-    user: (user_mail) => githubResolvers.getUserDetails(user_mail),
+    user: (user_mail) => getUserDetails(user_mail),
     repositories: () => 'Here Are Your Repositories'
 };
 
