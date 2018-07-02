@@ -1,0 +1,27 @@
+{
+  "name": "node-graphql-poc",
+  "version": "1.0.0",
+  "description": "Integration of Graphql with Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhanusaisv/node-graphql-poc.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Bhanu Sai Kumar SV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhanusaisv/node-graphql-poc/issues"
+  },
+  "homepage": "https://github.com/bhanusaisv/node-graphql-poc#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  }
+}
